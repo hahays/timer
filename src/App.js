@@ -11,11 +11,12 @@ function App() {
   let interval;
   const startTimer = () => {
     const countDownDate = new Date("September 5, 2022").getTime();
-    console.log("Осталось дней :" + countDownDate);
+    // console.log("Осталось дней :" + countDownDate);
 
     interval = setInterval(() => {
       const now = new Date().getTime();
-      console.log("Интервал между тем днем и сейчас: " + now);
+
+      // console.log("Интервал между тем днем и сейчас: " + now);
 
       const distance = countDownDate - now;
 
