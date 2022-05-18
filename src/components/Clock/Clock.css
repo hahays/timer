@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background-image: radial-gradient(
+    circle,
+    #809ac2,
+    #6096b2,
+    #4d909a,
+    #4d8780,
+    #567c66
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  padding-bottom: 10px;
+  font-size: 3rem;
+  font-family: sans-serif;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  min-width: 60px;
+  text-transform: uppercase;
+  background: linear-gradient(
+    219deg,
+    var(--color-11) 19%,
+    transparent 19%,
+    transparent 20%,
+    var(--color-12) 20%,
+    var(--color-12) 39%,
+    transparent 39%,
+    transparent 40%,
+    var(--color-13) 40%,
+    var(--color-13) 59%,
+    transparent 59%,
+    transparent 60%,
+    var(--color-14) 60%,
+    var(--color-14) 79%,
+    transparent 79%,
+    transparent 80%,
+    var(--color-15) 80%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.clock {
+  background: #000;
+  line-height: 1;
+  place-items: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#4e6463, #0e3839);
+  height: 226px;
+  width: 441px;
+  border-radius: 15px;
+  border: 2px solid rgb(43, 41, 41);
+}
+
+.clock section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.seconds {
+  width: 40px;
+}
+
+.clock section p {
+  font-size: 3rem;
+  font-family: sans-serif;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+  min-width: 60px;
+  margin: auto;
+  text-transform: uppercase;
+  background: linear-gradient(
+    219deg,
+    var(--color-1) 19%,
+    transparent 19%,
+    transparent 20%,
+    var(--color-2) 20%,
+    var(--color-2) 39%,
+    transparent 39%,
+    transparent 40%,
+    var(--color-3) 40%,
+    var(--color-3) 59%,
+    transparent 59%,
+    transparent 60%,
+    var(--color-4) 60%,
+    var(--color-4) 79%,
+    transparent 79%,
+    transparent 80%,
+    var(--color-5) 80%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.clock section small {
+  font-family: sans-serif;
+  justify-content: end;
+  align-items: flex-end;
+  background: linear-gradient(
+    219deg,
+    var(--color-6) 19%,
+    transparent 19%,
+    transparent 20%,
+    var(--color-7) 20%,
+    var(--color-7) 39%,
+    transparent 39%,
+    transparent 40%,
+    var(--color-8) 40%,
+    var(--color-8) 59%,
+    transparent 59%,
+    transparent 60%,
+    var(--color-9) 60%,
+    var(--color-9) 79%,
+    transparent 79%,
+    transparent 80%,
+    var(--color-10) 80%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
