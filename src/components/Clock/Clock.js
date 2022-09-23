@@ -4,7 +4,7 @@ import "./Clock.css";
 const Clock = ({ timerDays, timerHours, timerMinutes, timerSeconds }) => {
   return (
     <Fragment>
-      <div className="header">MONEY RUN OUT</div>
+      <div className="header">HAPPY BIRTHDAY</div>
       <section className="timer-container">
         <section className="timer">
           <div className="clock">

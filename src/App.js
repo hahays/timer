@@ -10,7 +10,7 @@ function App() {
 
   let interval;
   const startTimer = () => {
-    const countDownDate = new Date("September 5, 2022").getTime();
+    const countDownDate = new Date("April 30, 2023").getTime();
     // console.log("Осталось дней :" + countDownDate);
 
     interval = setInterval(() => {
